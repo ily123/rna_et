@@ -30,6 +30,7 @@ There are two components of interest
    2. Navigate MATLAB console to ET_RNA_ms/rnasep_example/
    3. Execute script 'rnasep_demo.m' by typing 'rnasep_demo'
    4. The script will:
+
       a. Load msf alignment of RNAse P homologues
 
       b. Load RNAse P structure 3q1q (chain B)
@@ -41,10 +42,15 @@ There are two components of interest
       e. Trace the profile alignment
            (outputs are saved to ../et_temp/, then mv'ed
             to ./results) 
+
       f. Calculate random expected clustering for adj matrix
+
       g. Calcuate clustering by ET nucleotides (across bins 0-100).
+
       h. Calculate overlap of ET nucleotides with functional sites
+
       i. Print summary tables and figures to ./results and ./visualization
+
    5. The necessary inputs for this script are in ./input_data/
       and include:
       a. MSF alignment of RNAse P homologues
