@@ -7,7 +7,6 @@ There are two components of interest
 
 1. ET program (ET_RNA_ms/et_bin/wetc)
 	stand-alone C binary that produces ET ranking given a MSF alignment
-	should run on any system with a compatible compiler		
 			
 	To run:
 	1) In terminal, navigate to ET_RNA_ms/et_bin/
