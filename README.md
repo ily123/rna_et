@@ -22,7 +22,7 @@ There are two components of interest
 		-o		base name for output files (can pipe it directly
           into dir '-o dir_path/basename')
 
-2. Compeletely worked example of RNAse P
+2. Example of RNAse P analysis, wrapped in MATLAB.
 
    To run:
    1. Launch MATLAB
