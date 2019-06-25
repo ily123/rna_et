@@ -31,9 +31,13 @@ There are two components of interest
    3. Execute script 'rnasep_demo.m' by typing 'rnasep_demo'
    4. The script will:
       a. Load msf alignment of RNAse P homologues
+
       b. Load RNAse P structure 3q1q (chain B)
+
       c. Calculate adjacency matrix for 3q1q (chain B)
+
       d. Profile sequence of chain B to the MSF alignment as query 
+
       e. Trace the profile alignment
            (outputs are saved to ../et_temp/, then mv'ed
             to ./results) 
