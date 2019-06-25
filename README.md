@@ -3,11 +3,6 @@ This code repository accompanies the manuscript
 	*An Evolutionary Trace method defines functionally
 	important bases and sites common to RNA families*
 
-Location:
-
-  code is on scopuli at /lab/cedar/home/novikov/RNAproject/RNA_ET_ms
-  code will also be on https://github.com/LichtargeLab/RNA_ET_ms
-
 There are two components of interest
 
 1. ET program (ET_RNA_ms/et_bin/wetc)
