@@ -58,19 +58,17 @@ There are two components of interest
       2. 3Q1Q pdb file
 
 3. Possible Errors:
-    a) Make sure gaps are denoted as '.' in the MSF alignment
-    b) If using wetc standalone, make sure the file path in -o
+    1. Make sure gaps are denoted as '.' in the MSF alignment
+    2. If using wetc standalone, make sure the file path in -o
        is not too long (will throw error)
 
 
 Bonus:
 
-4. Ribosome Example (ET_RNA_ms/ribosome_23S_example)
+  Ribosome Example (ET_RNA_ms/ribosome_23S_example)
   example of ET application using the 23S rRNA alignment,
   including the ET trace, and z-score computations
   (Several intermediate steps here are already pre-computed)
-  
-  uses wetc to produce ranking, but wrapped in MATLAB otherwise
 
   To run:
   1. Launch matlab
