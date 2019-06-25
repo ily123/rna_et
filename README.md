@@ -53,8 +53,9 @@ There are two components of interest
 
    5. The necessary inputs for this script are in ./input_data/
       and include:
-      a. MSF alignment of RNAse P homologues
-      b. 3Q1Q pdb file
+
+      1. MSF alignment of RNAse P homologues
+      2. 3Q1Q pdb file
 
 3. Possible Errors:
     a) Make sure gaps are denoted as '.' in the MSF alignment
@@ -64,20 +65,21 @@ There are two components of interest
 
 Bonus:
 
-4. Ribosome Example (ET_RNA_ms/ribosome_example)
-  example of ET application using the 16S rRNA alignment,
+4. Ribosome Example (ET_RNA_ms/ribosome_23S_example)
+  example of ET application using the 23S rRNA alignment,
   including the ET trace, and z-score computations
   (Several intermediate steps here are already pre-computed)
   
   uses wetc to produce ranking, but wrapped in MATLAB otherwise
 
   To run:
-  1) Launch matlab
-  2) Navigate in matlab console to ET_RNA_ms/ribosome_example
-  3) Type 'ls' (no quotes) to examine contents of folder, there are 3 scripts of interest
+  1. Launch matlab
+  2. Navigate in matlab console to ET_RNA_ms/ribosome_23S_example
+  3. Type 'ls' (no quotes) to examine contents of folder, there are 3 scripts of interest
     trace_alignment.m     traces the 16S alignment
     measure_et_structural_clustering  calculates ET clustering in the 16S structure
     measure_et_prediction_accuracy    calculates ET overlap with know functional sites in 16S
-  4) Execute these 3 scripts in order
-  5) Results and plots will be in the results/ and visualizaion/ folders
+  4. Execute these 3 scripts in order
+  5. Results and plots will be in the results/ and visualizaion/ folders
 
+Dependencies: The code was tested on MATLAB v2017b with Bioinformatics toolbox.
