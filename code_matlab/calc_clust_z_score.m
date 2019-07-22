@@ -6,7 +6,7 @@ function cluster_table = calc_clustering_table(dist_matrix_struct, trace_data_rv
 
 
   coverages = trace_data_rvet.coverage;
-  nt_num = trace_data_rvet.nt_num;
+  %nt_num = trace_data_rvet.nt_num;
   coverage_bins = unique(coverages);
   len = length(coverage_bins);
   cluster_weight_ary = [];
@@ -36,3 +36,8 @@ function cluster_table = calc_clustering_table(dist_matrix_struct, trace_data_rv
 
 
   cluster_table = [cluster_table, z_score_table];
+
+  cluster_table.z_score(end) = 0;
+  if cluster_table.m(1) == 1
+    cluster_table.z_score(1) = 0;
+  end

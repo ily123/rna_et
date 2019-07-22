@@ -113,7 +113,7 @@ function [keep_track, keep_track2, pdb_seq_profiled, atoms_chain] = main(alignme
   non_gap_count = 0;
   for i=1:length(best_bit_sequence_ori)
     letter_in_ori = best_bit_sequence_ori(i);
-    if letter_in_ori == '.' % line source of errs depending on gap format
+    if letter_in_ori == '-' % line source of errs depending on gap format
       pdb_seq_profiled = [pdb_seq_profiled, '-'];
     else
       non_gap_count = non_gap_count + 1;
